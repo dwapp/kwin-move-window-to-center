@@ -13,7 +13,7 @@
 // You should have received a copy of the GNU General Public License
 // along with this program. If not, see <https://www.gnu.org/licenses/>.
 
-registerShortcut("MoveWindowToCenter", "Move Window to Center", "Meta+C", function () {
+registerShortcut("MyMoveWindowToCenter", "My Move Window to Center", "Meta+C", function () {
     var client = workspace.activeClient;
     if (client.moveable) {
         var maxArea = workspace.clientArea(KWin.MaximizeArea, client);
