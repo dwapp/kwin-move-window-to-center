@@ -1,0 +1,24 @@
+{
+    "KPlugin": {
+        "Authors": [
+            {
+                "Email": "konstantinos.smanis@gmail.com",
+                "Name": "Konstantinos Smanis"
+            }
+        ],
+        "Dependencies": [
+        ],
+        "Description": "Centers the active window in the current screen.",
+        "EnabledByDefault": true,
+        "Icon": "preferences-system-windows-move",
+        "Id": "movewindowtocenter",
+        "License": "GPL",
+        "Name": "Move Window to Center",
+        "ServiceTypes": [
+            "KWin/Script"
+        ],
+        "Version": "1.1"
+    },
+    "X-Plasma-API": "javascript",
+    "X-Plasma-MainScript": "code/main.js"
+}
